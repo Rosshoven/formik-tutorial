@@ -1,4 +1,4 @@
-<img src="./src/images/
+<img src="./src/images/formik-tutorial-pic.png" >
 
 # Getting Started with Create React App
 
