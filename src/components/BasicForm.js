@@ -7,8 +7,17 @@ const onSubmit = async (values, actions) => {
   console.log(actions);
   await new Promise((resolve) => setTimeout(resolve, 1000));
   // Resetting form not working...
-  actions.resetForm();
-};
+  actions.resetForm({
+    values: {
+      // the type of `values` inferred to be Blog
+      userName: '',
+      email: '',
+      age: '',
+      password: '',
+      confirmPassword: ''
+    },
+});
+}
 
 
 const BasicForm = () => {
@@ -93,6 +102,7 @@ console.log(errors);
       {errors.confirmPassword && touched.confirmPassword && <p className="error">{errors.confirmPassword}</p>}
 
     <button disabled={isSubmitting} type="submit">Submit</button>
+  
     </form>
   );
 };
