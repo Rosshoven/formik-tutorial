@@ -2,7 +2,7 @@
 
 # Aknowledgments
 ## Code forked and written with tutorial by Onelight Web Dev
-on <a href="youtube.com/watch?v=7Ophfq0lEAY">YouTube</a>
+## on <a target=_blank href="https://www.youtube.com/watch?v=7Ophfq0lEAY">YouTube</a>
 
 # Getting Started with Create React App
 
