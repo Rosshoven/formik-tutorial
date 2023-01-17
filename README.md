@@ -1,5 +1,9 @@
 <img src="./src/images/formik-tutorial-pic.png" >
 
+# Aknowledgments
+## Code forked and written with tutorial by Onelight Web Dev
+on <a href="youtube.com/watch?v=7Ophfq0lEAY">YouTube</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
