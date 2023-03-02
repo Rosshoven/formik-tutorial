@@ -7,6 +7,7 @@ const onSubmit = async (values, actions) => {
   console.log(actions);
   await new Promise((resolve) => setTimeout(resolve, 1000));
   // Resetting form not working...
+  alert('Registration Sucessful');
   actions.resetForm({
     values: {
       // the type of `values` inferred to be Blog
